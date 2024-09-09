@@ -35,9 +35,9 @@ const Contact = () => {
         "template_evgrbnx",
         {
           from_name: form.name,
-          to_name: "Aditya",
+          to_name: "Tanya",
           from_email: form.email,
-          to_email: "jainad0417@gmail.com",
+          to_email: "tanyabhargava2002@gmail.com",
           message: form.message,
         },
         "ZQcjHXddq99FANidv"
