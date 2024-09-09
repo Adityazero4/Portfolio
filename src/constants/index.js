@@ -45,13 +45,14 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
-    icon: web,
-  },
-  {
-    title: "Software Developer",
+    title: "Software Engineer",
     icon: mobile,
   },
+  {
+    title: "Product",
+    icon: web,
+  },
+  
 ];
 
 const technologies = [
@@ -64,34 +65,9 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "Git",
     icon: git,
   },
-  { name: "Next JS", icon: nextjs },
   {
     name: "Python",
     icon: python,
@@ -101,204 +77,130 @@ const technologies = [
     icon: cpp,
   },
   {
-    name: "Prisma",
+    name: "Machine Learning",
+    icon: prisma,
+  },
+    {
+    name: "Prodcut",
     icon: prisma,
   },
 ];
 
 const experiences = [
   {
-    title: "React JS Training",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#f2f2f2",
-    date: "March 2023 - April 2023",
+    title: "Technical Support Engineer",
+    company_name: "Cidroy Technologies LLP",
+    date: "June 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Technical Troubleshooting & SaaS Expertise: Provided expert-level support for SaaS products by diagnosing and resolving
+complex issues, ensuring high customer satisfaction and reducing downtime.",
+      "Customer Relationship Management: Managed interactions via email, phone, and live chat with professionalism and efficiency,
+prioritizing and resolving queries to build strong customer relationships.",
+      "Proactive Support & User Training: Delivered proactive support and conducted user training to prevent issues and enhance
+product usage, driving higher adoption and retention rates.",
+      "Knowledge Base Contribution: Authored documentation for troubleshooting processes, enhancing team efficiency and response time.",
     ],
   },
   {
-    title: "React Developer Internship",
+    title: "Web developer & SEO Intern",
     company_name: "Support Genie",
-    icon: supportGenie,
-    iconBg: "#f2f2f2",
-    date: "May 2023 - july 2023",
+    date: "January 2024 - April 202",
     points: [
-      "Led frontend development using React.js, Material UI, and GraphQL to create a responsive company website with interactive components.",
-      "Enhanced the company's online presence with a user-friendly, interactive interface.",
-    ],
+      "Product Lifecycle Management: Managed e-commerce products, enhancing user experience and driving adoption.",
+      " Customer Feedback-Driven Development: Used customer feedback to improve usability and engagement with data-driven insights.",
+      " SEO & Content Optimization: Executed SEO and created product content to boost visibility and engagement.",
+       "Cross-Functional Collaboration: Worked with engineering, sales, and marketing teams to align product development with business goals.",
+      ],
   },
   {
-    title: "Persistent Martian Intern(Apprenticeship)",
-    company_name: "Persistent",
-    icon: persistent,
-    iconBg: "#f2f2f2",
-    date: "Jun 2023 - August 2023",
+    title: "Research Intern",
+    company_name: ", ABV-IIITM",
+    date: "May 2023 - July 2023",
     points: [
-      "Completed an immersive program encompassing Python, Data Structures, Database Management, and Linux, laying a robust foundation for a techoriented career.",
-      "Thrived in a diverse group environment, fostering effective teamwork and communication skills, vital for success in the technology field",
+      "▪ Deep Learning & NLP Research: Worked on Level Relation Extraction using Deep Learning and NLP, developing models to extract entity relations from large datasets.",
+      "Data Analysis & Model Improvement: Used advanced NLP techniques to enhance model accuracy, collaborating with the team to refine approaches for optimal results.",
     ],
   },
-  {
-    title: "React Tester Intern",
-    company_name: "Reverr",
-    icon: reverr,
-    iconBg: "#f2f2f2",
-    date: "Nov 2023 - Present",
-    points: [
-      "Identified and fixed critical bugs in a React web application.",
-      "Ensured alignment with UI/UX standards for a seamless user experience.",
-      "Enhanced application performance and usability through comprehensive testing.",
-    ],
-  },
-  {
-    title: "Jr. Frontend Developer",
-    company_name: "OpeninApp",
-    icon: openinapp,
-    iconBg: "#f2f2f2",
-    date: "Feb 2024 - Present",
-    points: [
-      "Developed and enhanced user interfaces using React.js, Next.js, Tailwind CSS, and TypeScript.",
-      "Integrated frontend with backend using REST APIs, improving performance significantly.",
-      "Achieved a 200% increase in user adoption, driving revenue generation through affiliate links.",
-    ],
-  },
-];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Aditya proved me wrong.",
-    name: "Sejal Mahajan",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Aditya does.",
-    name: "Prajwal Dorkhande",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Abhishek jain",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
   {
-    name: "Case-cobra",
+    name: "House Price Prediction",
     description:
-      "CaseCobra: A modern e-commerce platform for custom phone cases, built with Next.js 14, TypeScript, Tailwind CSS, and secure authentication via Kinde.",
+      "House Price Prediction: Developed a regression model to predict house prices in India using Python, incorporating data pre-processing and model iteration.",
     tags: [
       {
-        name: "next js",
+        name: "ML Algorithms",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind css",
+        name: "Data Analysis",
         color: "orange-text-gradient",
-      },
-      {
-        name: "prostgres",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "kinde-auth",
-        color: "blue-text-gradient",
       },
     ],
-    image: casecobra,
-    source_code_link: "https://github.com/Adityazero4/case-cobra",
-    deployed_link: "https://case-cobra-beta.vercel.app",
+    image: houseprice,
+    source_code_link: "https://github.com/tanya-bharagava1/house-price-prediction",
+    deployed_link: "https://adix002-house-price-prediction-appstream-gw9man.streamlit.app/",
   },
   {
-    name: "Nike Store WebApp",
+    name: "Captcha Login Module",
     description:
-      "A sleek, responsive shopping experience for shoe enthusiasts, built with Vite.js and styled using TailwindCSS.",
+      "Designed a secure captcha login module with HTML and JavaScript for dynamic alphanumeric and special character generation. Enhanced website security by improving user authentication through effective captcha implementation.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "Javascript",
         color: "green-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react-redux",
-        color: "orange-text-gradient",
       },
     ],
     image: nikestore,
-    source_code_link: "https://github.com/Adityazero4/Nike-store",
-    deployed_link: "https://aditya-nike-store.netlify.app/",
+    source_code_link: "https://github.com/tanya-bharagava1/captchae",
+    deployed_link: "file:///C:/Users/asus/OneDrive/Desktop/Captcha.html",
   },
   {
-    name: "AI Powered 3D Product App",
+    name: "Online Stock Market Predictor",
     description:
-      "A web application that helps in designing the tshirt using AI and 3D models.",
+      "a stock market prediction tool using Python and web scraping to gather data from official brand websites.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "react-three-fiber",
+        name: "Data Analysis",
         color: "green-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "Web Scraping",
         color: "orange-text-gradient",
       },
-      {
-        name: "openAi API",
-        color: "pink-text-gradient",
-      },
     ],
-    image: product,
-    source_code_link: "https://github.com/Adityazero4/AI_powered_3D_product",
-    deployed_link: "https://3d-product-shirt.netlify.app/",
   },
   {
-    name: "SmartDash Admin Suite",
+    name: "Netflix Clone",
     description:
       "This is a sleek React admin panel for seamless team management, contact organization, and data visualization with Material-UI and @nivo charts.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "CSS",
         color: "green-text-gradient",
-      },
-      {
-        name: "nivo-charts",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "formik-yup",
-        color: "orange-text-gradient",
       },
     ],
     image: admin,
-    source_code_link: "https://github.com/Adityazero4/SmartDash-Admin-Suite",
-    deployed_link: "https://aditya-admin-panel.netlify.app/",
+    source_code_link: "https://github.com/tanya-bharagava1/Netflix-clone",
+    deployed_link: "",
   },
 ];
 
